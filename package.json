@@ -1,0 +1,5 @@
+{"scripts": {
+    "install:all": "npm install && npm --prefix ./server install && npm --prefix ./client install",
+    "dev:server": "npm --prefix ./server node server",
+    "dev:client": "npm --prefix ./client start"
+    }}
